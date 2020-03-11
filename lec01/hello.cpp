@@ -3,8 +3,8 @@ using namespace std;   // avoid repeating “std::”
 
 int main()
 {
-	std::cout << "Hello ";
-	cout << "NC" << "KU!!" << endl;
+	cout << "Hello World!!\n";
+
 	return 0;
 }
 
