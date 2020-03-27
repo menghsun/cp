@@ -39,7 +39,7 @@ int main()
 		case 12: cout << "December";  break;
 	}
 
-	cout << ", 20" << setw(2) << year << ".\n";
+	cout << ", 20" << setw(2) << setfill('0') << year << ".\n";
 	return 0;
 }
 
